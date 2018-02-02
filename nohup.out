@@ -1,0 +1,23 @@
+/Users/user/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- ./clockauto_jobcan.rb (LoadError)
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/bin/clockwork:12:in `<top (required)>'
+	from /Users/user/.rbenv/versions/2.3.1/bin/clockwork:23:in `load'
+	from /Users/user/.rbenv/versions/2.3.1/bin/clockwork:23:in `<main>'
+/Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/at.rb:30:in `parse': mon09:20 (Clockwork::At::FailedToParse)
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/event.rb:10:in `initialize'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:167:in `new'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:167:in `register'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:176:in `block in every_with_multiple_times'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:174:in `each'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:174:in `every_with_multiple_times'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork/manager.rb:54:in `every'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/lib/clockwork.rb:42:in `every'
+	from /Users/user/Documents/work/JobcanAuto/auto_jobcan.rb:7:in `block in <top (required)>'
+	from /Users/user/Documents/work/JobcanAuto/auto_jobcan.rb:6:in `each'
+	from /Users/user/Documents/work/JobcanAuto/auto_jobcan.rb:6:in `<top (required)>'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /Users/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/clockwork-2.0.2/bin/clockwork:12:in `<top (required)>'
+	from /Users/user/.rbenv/versions/2.3.1/bin/clockwork:23:in `load'
+	from /Users/user/.rbenv/versions/2.3.1/bin/clockwork:23:in `<main>'
+I, [2018-02-02T11:42:50.300223 #4724]  INFO -- : Starting clock for 10 events: [ mon出勤 mon退勤 tue出勤 tue退勤 wed出勤 wed退勤 thu出勤 thu退勤 fri出勤 fri退勤 ]

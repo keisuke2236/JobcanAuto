@@ -1,11 +1,18 @@
-# Usage
+# jobcanの完全自動打刻
 
-## ShellScript
+## clockwork
+定期実行してくれるやつ
+
+auto_jobcan.rbの中身は各員設定すること。
 
 ```
-# 出勤
-$ ./jobcan.sh -c YOUR_CLIENT_ID -m monoqlo@hoge.com -p YOUR_PASSWORD -t start
+gem install clockwork
+clockwork auto_jobcan.rb
+```
 
-# 退勤
-$ ./jobcan.sh -c YOUR_CLIENT_ID -m monoqlo@hoge.com -p YOUR_PASSWORD -t end
+
+バックグラウンド実行
+
+```
+nohup clockwork clockauto_jobcan.rb
 ```
